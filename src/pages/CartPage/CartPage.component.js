@@ -17,7 +17,7 @@ import {
   CartProductAttributesWrapper,
 } from "./styledcomponents";
 import { Helmet } from "react-helmet";
-import Headline from "../../components/FontProperty";
+import FontProperty from "../../components/FontProperty";
 import ProductAttributes from "../../components/Product/ProductAttributes";
 import Slider from "../../components/SliderComponents/Slider";
 import Paragraph from "../../components/Paragraph";
@@ -46,9 +46,9 @@ export class CartPage extends PureComponent {
 
   renderEmptyCartPage() {
     return (
-      <Headline typeHeadline="h1" fontSize={42}>
+      <FontProperty typeFont="h1" fontSize={42}>
         Your cart is empty!
-      </Headline>
+      </FontProperty>
     );
   }
 
@@ -63,7 +63,7 @@ export class CartPage extends PureComponent {
         return (
           <CartItemWrapper key={cartItem.cartItemId}>
             <ProductInfoWrapper>
-              <Headline
+              <FontProperty
                 typeHeadline="h2"
                 fontSize={30}
                 lineHeight={27}
@@ -71,8 +71,8 @@ export class CartPage extends PureComponent {
                 fontWeight={600}
               >
                 {cartItem.brand}
-              </Headline>
-              <Headline
+              </FontProperty>
+              <FontProperty
                 typeHeadline="h3"
                 fontSize={30}
                 lineHeight={27}
@@ -80,8 +80,8 @@ export class CartPage extends PureComponent {
                 marginBottom={20}
               >
                 {cartItem.name}
-              </Headline>
-              <Headline
+              </FontProperty>
+              <FontProperty
                 typeHeadline="h3"
                 fontWeight={700}
                 fontSize={24}
@@ -91,7 +91,7 @@ export class CartPage extends PureComponent {
                 {`${
                   filteredPrice.currency.symbol
                 }${filteredPrice.amount.toFixed(2)}`}
-              </Headline>
+              </FontProperty>
               <CartProductAttributesWrapper>
                 <ProductAttributes
                   attributes={cartItem.attributes}
@@ -195,14 +195,14 @@ export class CartPage extends PureComponent {
       <CartPageWrapper>
         {this.renderHemlet()}
         <CartPageHeader>
-          <Headline
-            typeHeadline="h1"
+          <FontProperty
+            typeFont="h1"
             fontWeight={700}
             fontSize={32}
             lineHeight={42}
           >
             Cart
-          </Headline>
+          </FontProperty>
         </CartPageHeader>
         <CartItemsWrapper>
           {cartItems && cartItems.length > 0
