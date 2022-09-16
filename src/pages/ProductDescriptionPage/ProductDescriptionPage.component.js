@@ -169,7 +169,7 @@ export class ProductDescriptionPage extends PureComponent {
           <Paragraph
             lineHeight={18}
             fontSize={18}
-            children={`${filteredPrice.currency.symbol}${filteredPrice.amount}`}
+            children={`${filteredPrice.currency.symbol}${filteredPrice.amount.toFixed(2)}`}
             fontWeight={700}
           />
         </ProductPriceWrapper>
