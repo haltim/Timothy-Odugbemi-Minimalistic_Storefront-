@@ -79,12 +79,12 @@ export class Slider extends PureComponent {
         {images && images.length >= 2 && (
           <>
             <SliderArrows
-              direction={"right"}
+              direction={"left"}
               opacity={activeSlide !== images.length - 1 ? 1 : 0}
               handleClick={this.handlePrevSlide}
             />
             <SliderArrows
-              direction={"left"}
+              direction={"right"}
               opacity={activeSlide !== 0 ? 1 : 0}
               handleClick={this.handleNextSlide}
             />
