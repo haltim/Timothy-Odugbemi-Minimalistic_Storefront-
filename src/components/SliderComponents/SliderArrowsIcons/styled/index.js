@@ -7,7 +7,7 @@ export const ArrowComponent = styled.div`
   height: 24px;
   width: 24px;
   ${(props) => (props.direction === "left" ? "left: 128px" : "left: 160px")};
-  top: 248px;
+  top: 208px;
   color: black;
   cursor: pointer;
   svg {
