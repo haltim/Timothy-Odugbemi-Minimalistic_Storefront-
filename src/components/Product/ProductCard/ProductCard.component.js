@@ -91,7 +91,7 @@ export class ProductCard extends PureComponent {
           fontWeight={500}
           fontSize={18}
           lineHeight={28.8}
-          children={`${price.currency.symbol}${price.amount}`}
+          children={`${price.currency.symbol}${price.amount.toFixed(2)}`}
         />
       </ProductContent>
     );
