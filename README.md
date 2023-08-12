@@ -17,6 +17,7 @@ In the project directory, run the following:
 
 Below are the Images:
 ### HomePage
+![Homepage](https://github.com/haltim/Timothy-Odugbemi-Minimalistic_Storefront-/assets/80194718/0833c71a-b448-4dcd-9096-6f7c2d9efe76)
 
 
 
