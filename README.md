@@ -10,7 +10,7 @@ In the project directory, run:
  then
 ### `npm start`
  
- This is a test, the  backend can be found at https://github.com/scandiweb/junior-react-endpoint.
+ This is a test project, the  backend can be found at https://github.com/scandiweb/junior-react-endpoint.
  
  This Figma Prototype of the code is  available at 
  https://www.figma.com/file/MSyCAqVy1UgNap0pvqH6H3/Junior-Frontend-Test-Designs-(Public)?node-id=0%3A1
