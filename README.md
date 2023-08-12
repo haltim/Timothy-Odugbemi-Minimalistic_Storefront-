@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, run:
+In the project directory, run the following:
 
 ### `npm i`
  then
@@ -14,4 +14,9 @@ In the project directory, run:
  
  This Figma Prototype of the code is  available at 
  https://www.figma.com/file/MSyCAqVy1UgNap0pvqH6H3/Junior-Frontend-Test-Designs-(Public)?node-id=0%3A1
+
+Below are the Images:
+HomePage
+
+
 
