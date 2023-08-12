@@ -28,5 +28,8 @@ Below are the Images:
 ### Product Page
 ![productpage](https://github.com/haltim/Timothy-Odugbemi-Minimalistic_Storefront-/assets/80194718/ccaee242-a45a-4eaa-a91f-438efc9b0ef9)
 
+### Checkout Page
+![checkout](https://github.com/haltim/Timothy-Odugbemi-Minimalistic_Storefront-/assets/80194718/39420d52-3ef3-421f-af6c-89fe708ca5c5)
+
 
 
